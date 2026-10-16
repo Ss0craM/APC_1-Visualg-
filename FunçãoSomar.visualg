@@ -1,0 +1,24 @@
+algoritmo "FunçãoSomar"
+
+var
+
+  resultadoCASOA:inteiro
+  resultadoCASOB:inteiro
+  resultadoCASOC:inteiro  
+
+funcao somar(valor1,valor2):inteiro
+  inicio
+    retorne valor1+valor2
+  fimfuncao
+
+
+  inicio
+
+  resultadoCASOA <- somar(1,1)
+  resultadoCASOB <- somar(5,10)
+  resultadoCASOC <- somar(100,1)
+  escreval("Resultado do caso A:", resultadoCASOA)
+  escreval("Resultado do caso B:", resultadoCASOB)
+  escreval("Resultado do caso C:", resultadoCASOC)
+
+fimalgoritmo
